@@ -18,4 +18,3 @@ public interface UserDao {
     void cleanUsersTable();
 }
 
-//userDao не приватизирован в сервисе

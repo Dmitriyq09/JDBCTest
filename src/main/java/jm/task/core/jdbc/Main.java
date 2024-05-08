@@ -15,6 +15,7 @@ public class Main {
     private final static UserService userService = new UserServiceImpl();
 
     public static void main(String[] args) {
+
         userService.createUsersTable();
 
         userService.saveUser("Name1", "lastName1", (byte) 21);
